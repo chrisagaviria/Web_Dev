@@ -1,0 +1,117 @@
+<html lang="en" dir="ltr">
+  <head>
+    <!-- utf-8 is a standard encoding feature -->
+    <meta charset="utf-8">
+    <!-- The title is how my website will be named on the tab -->
+    <title>Chris's First Website</title>
+    <!-- Creating a style that will affect the whole <body> to avoid duplicating styles. This is known as Internal CSS -->
+    <!-- Any repetitive lines can be modified once with the code below -->
+  <!-- MOVED THE INTERNAL CSS out of this file and into CSS folder to perform External CSS which allows me to apply all the changes
+       I wanted to do to this webpage onto all the other ones.
+    <style>
+
+      /*
+        - The styles in here only pertain to index.html and not the other pages in the website. Flaw of Internal CSS
+      */
+      body {g
+        background-color: #B7D3DF;
+      }
+
+      /*
+        - Can view the properties of hr from: https://www.w3schools.com/cssref/css_default_values.asp
+        - Can look for specific changes to those properties such as border-style from https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+        - height allows you to add some sort of depth to the line. If it is removed, then you wont be able to see the white line.
+      */
+
+      hr {
+          border-style: none;
+          border-top-style: dotted;
+          border-color: grey;
+          border-width: 5px;
+          width: 5%;
+        }
+
+    </style>
+  -->
+  <!-- Linking my External CSS which contains the body of code above -->
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+
+
+  <!-- The body of my HTML code begins here -->
+    <!-- Adding background color to website -->
+  <body>
+    <!-- Adding a table -->
+    <!-- Adding spacing between margins and images & text -->
+    <table cellspacing = "20">
+      <!-- Adding a table row -->
+      <tr>
+        <!-- Adding my LinkedIn image which is saved in my mac folder. If the image cannot be loaded, then alt will appear. -->
+        <td><img src="Image/LinkedIn_Image.jpeg" alt="Personal Picture"></td>
+        <td><h1>Christian Ardila-Gaviria</h1>
+          <!-- <em></em> Allows for me to display italic fonts -->
+        <p><em>System Engineer II at Raytheon Missiles & Defense</em></p>
+          <!-- <strong></strong> is the best way to BOLD text -->
+        <p><strong>Bio: </strong>I am a Systems Engineer who works at Raytheon Missiles & Defense under the department of Cooperative Engagement Capabilities.</p>
+          <!-- <a href="#"></a> is how we can implement hyperlinks in website. -->
+        <p><strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/cagaviria/">LinkedIn</a> </p></td>
+      </tr>
+    </table>
+      <!-- Adding a horizontal line with a thickness of 3 -->
+    <hr>
+    <h3>Education</h3>
+      <!-- Adding an unordered list as a table format -->
+    <ul>
+      <li>Florida International University, Miami, FL</li>
+      <li>Miami Dade-College, Miami, FL	</li>
+    </ul>
+    <hr>
+    <h3>Work Experience</h3>
+    <table>
+      <tr>
+        <td><em>Systems Engineer II</em>, <strong>Raytheon Missiles & Defense</strong></td>
+        <td>2021 - Present: </td>
+      </tr>
+      <tr>
+        <td><em>Systems Design Engineer I</em>,<strong> The Boeing Company</strong></td>
+        <td>March 2020 - December 2021</td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Skills</h3>
+    <table cellspacing = "10">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <!-- <td></td> is used for table cell -->
+              <td>Python</td>
+              <td>⭐️⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>⭐️⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Linux</td>
+              <td>⭐️⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>⭐️⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Matlab</td>
+              <td>⭐️⭐️⭐️</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <a href="hobbies.html">My Hobbies</a>
+    <br>
+    <a href="contact-details.html">Contact Details</a>
+  </body>
+
+</html>

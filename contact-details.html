@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Details</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Creating a header for the beginning of my page -->
+    <h1>My Contact Details</h1>
+
+    <!-- Displaying my email for them to contact me -->
+    <p><strong>Email: </strong> chrisagaviria@gmail.com</p>
+    <hr>
+    <!-- Creating a form in order to allow others to input their name and then submit their information -->
+      <!-- Remove class "" from <form action> and implemented enctype so when the user emails a message, the text does not provide
+           weird symbols -->
+    <form action="mailto:chrisagaviria@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label> <br>
+        <!-- <textarea name="name" rows="8" cols="80"></textarea> Allows you to create text box for user to provide Message -->
+      <textarea name="yourMessage" rows="2" cols="30"></textarea><br>
+      <input type="submit" name="">
+
+    </form>
+  </body>
+</html>

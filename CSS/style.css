@@ -1,0 +1,36 @@
+/*
+    EXTERNAL CSS
+*/
+
+
+
+  /*
+    - The styles in here only pertain to index.html and not the other pages in the website. Flaw of Internal CSS
+  */
+  body {
+    background-color: #EAF6F6;
+  }
+
+  /*
+    - Can view the properties of hr from: https://www.w3schools.com/cssref/css_default_values.asp
+    - Can look for specific changes to those properties such as border-style from https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+    - height allows you to add some sort of depth to the line. If it is removed, then you wont be able to see the white line.
+  */
+
+  hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 5px;
+      width: 10%;
+    }
+
+  h1 {
+    color: #66BFBF;
+    font-family:fantasy;
+  }
+
+  h3 {
+    color: #66BFBF;
+    font-family:fantasy;
+  }
