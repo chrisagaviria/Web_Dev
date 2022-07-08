@@ -2,7 +2,7 @@
     EXTERNAL CSS
 */
 
-
+/**************** Tag SELECTORS *****************/
 
   /*
     - The styles in here only pertain to index.html and not the other pages in the website. Flaw of Internal CSS
@@ -34,3 +34,8 @@
     color: #66BFBF;
     font-family:fantasy;
   }
+
+/**************** CLASS SELECTORS *****************/
+.circular{
+  border-radius: 100%;
+}
